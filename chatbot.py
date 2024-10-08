@@ -12,4 +12,4 @@ def enviar_mensagem(mensagem):
     )
     return resposta["choices"][0]["message"]
 
-print(enviar_mensagem("Em que ano Roberto Carlos nasceu?"))
+print(enviar_mensagem("MESSAGE"))
